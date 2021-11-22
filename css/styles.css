@@ -133,7 +133,7 @@ img {
   margin-right: 0;
 }
 
-.header-item .link.current {
+.header-item .link.current-page {
   color: var(--accent-color);
 }
 
