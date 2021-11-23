@@ -419,7 +419,12 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: center;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
 }
 
 .footer-logo {
@@ -459,15 +464,16 @@ img {
 }
 
 .footer-social {
-  display: block;
-  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
 }
 
 .footer-social-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--third-text-color);
