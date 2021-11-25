@@ -241,6 +241,7 @@ img {
   align-items: center;
   justify-content: center;
   background-color: var(--first-background-color);
+  margin-bottom: 30px;
 }
 
 .benefits-title {
@@ -251,7 +252,6 @@ img {
   text-transform: uppercase;
   color: var(--first-text-color);
   margin-bottom: 10px;
-  margin-top: 30px;
 }
 
 .benefits-text {
@@ -305,8 +305,7 @@ img {
 }
 
 .team-item-about {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px;
 }
 
 .team-item-title {
